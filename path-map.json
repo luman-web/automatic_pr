@@ -8,5 +8,13 @@
   {
     "filePath": "pages/-OSJNjPZ00U_tMSjtL6A.json",
     "savePath": "tabs/-OSJNjPZ00U_tMSjtL6A"
+  },
+  {
+    "filePath": "widgets/-OSJ_-gjNOmzoOXR5R6Z/widget.json",
+    "savePath": "widgets/-OSJ_-gjNOmzoOXR5R6Z"
+  },
+  {
+    "filePath": "widgets/-OSJ_-gjNOmzoOXR5R6Z/template.html",
+    "savePath": "widgets/-OSJ_-gjNOmzoOXR5R6Z/template"
   }
 ]
