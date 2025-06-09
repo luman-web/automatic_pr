@@ -1,10 +1,9 @@
-name: PR to Master - Notify Firebase Function
+name: PR Merged to Master - Notify Firebase Function
 
 on:
-  pull_request:
+  push:
     branches:
       - master
-    types: [opened, reopened, synchronize]
 
 jobs:
   call-firebase-function:
