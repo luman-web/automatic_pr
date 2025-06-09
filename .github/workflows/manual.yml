@@ -1,0 +1,28 @@
+name: PR to Master - Notify Firebase Function
+
+on:
+  pull_request:
+    branches:
+      - master
+    types: [opened, reopened, synchronize]
+
+jobs:
+  call-firebase-function:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Make HTTP request to Firebase Function
+        run: |
+          curl -X POST https://us-central1-tangledev00.cloudfunctions.net/githubPull \
+            -H "Content-Type: application/json" \
+            -d '{
+              "dashId": "-OSJNjEk3Mc6yn_jY-Dq",
+              "context": {
+                "auth": {
+                  "uid": null,
+                  "token": {
+                    "email": null
+                  }
+                }
+              }
+            }'
