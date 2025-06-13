@@ -6,8 +6,18 @@
     "modelKey": "pages"
   },
   {
+    "filePath": "tables/tables.json",
+    "savePath": "models/tables",
+    "isModel": true,
+    "modelKey": "tables"
+  },
+  {
     "filePath": "pages/-OSJNjPZ00U_tMSjtL6A.json",
     "savePath": "tabs/-OSJNjPZ00U_tMSjtL6A"
+  },
+  {
+    "filePath": "pages/-OScns5io1KXK6wx08X0.json",
+    "savePath": "tabs/-OScns5io1KXK6wx08X0"
   },
   {
     "filePath": "widgets/-OSJ_-gjNOmzoOXR5R6Z/widget.json",
@@ -16,5 +26,14 @@
   {
     "filePath": "widgets/-OSJ_-gjNOmzoOXR5R6Z/template.html",
     "savePath": "widgets/-OSJ_-gjNOmzoOXR5R6Z/template"
+  },
+  {
+    "filePath": "widgets/-OScns8fVY4XAjFJnh1k/widget.json",
+    "savePath": "widgets/-OScns8fVY4XAjFJnh1k"
+  },
+  {
+    "filePath": "widgetsData/dataGrid/grid1.json",
+    "savePath": "widgetsData/dataGrid/grid1",
+    "conversion": "dataGrid"
   }
 ]
